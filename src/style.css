@@ -256,8 +256,6 @@ footer .social a{
     }
 }
 
-
-
 /* tech.html */
 
 .technology{
@@ -265,4 +263,9 @@ footer .social a{
     padding : 3rem 0 0 0;
     align-items:center;
     justify-content:center;
+}
+
+.container{
+    background-color: #33333343;
+    margin-top: 3rem;
 }
