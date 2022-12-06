@@ -204,14 +204,14 @@ footer .social a{
     justify-content: space-between;
     flex-direction: row;
     padding: 2rem;
-    margin: 3rem;
+    margin: 4rem;
     background-color: var(--violet)
 }
 .image{
-    width: 40%
+    width: 60%
 }
 .image img{
-    width:60rem
+    width:50rem
 }
 .headline{
     text-align: center;
@@ -221,7 +221,7 @@ footer .social a{
     padding: 1rem 0;
 }
 .desc{
-    width: 60%;
+    width: 55%;
     text-align: left;
     font-size: 1rem;
     color: #333;
