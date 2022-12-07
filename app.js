@@ -7,7 +7,6 @@ bars.addEventListener('click',()=>{
 });
 
 $(window).on('scroll load',function(){
-    bars.classList.toggle('fa-times');
 
     if($(window).scrollTop() > 30){
         $('header').addClass('header-active');
