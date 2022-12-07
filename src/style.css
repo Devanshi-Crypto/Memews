@@ -167,9 +167,6 @@ header .fa-times{
     background-color: black;
 }
 
-
-
-
 footer{
     display: flex;
     width: 100%;
@@ -201,7 +198,35 @@ footer .social a{
     width:100%;
     padding:3rem;
 }
-
+.tech-box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 4rem;
+    background-color: var(--violet)
+}
+.image{
+    width: 60%
+}
+.image img{
+    width:50rem
+}
+.headline{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #333;
+    padding: 1rem 0;
+}
+.desc{
+    width: 55%;
+    text-align: left;
+    font-size: 1rem;
+    color: #333;
+    padding: 1rem 0;
+}
 
 
 /* media */
@@ -256,16 +281,6 @@ footer .social a{
     }
 }
 
+
+
 /* tech.html */
-
-.technology{
-    width:100%;
-    padding : 3rem 0 0 0;
-    align-items:center;
-    justify-content:center;
-}
-
-.container{
-    background-color: #33333343;
-    margin-top: 3rem;
-}
