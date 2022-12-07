@@ -205,27 +205,39 @@ footer .social a{
     flex-direction: row;
     padding: 2rem;
     margin: 4rem;
-    background-color: var(--violet)
+    background-color: #8A2BE2;
 }
 .image{
-    width: 60%
+    width: 100rem;
 }
 .image img{
-    width:50rem
+    width:50rem;
 }
 .headline{
-    text-align: center;
-    font-size: 4rem;
+    text-align: left;
+    font-size: 3rem;
     font-weight: 800;
     color: #333;
     padding: 1rem 0;
+    padding-left:3rem
 }
-.desc{
+.desc a{
+
     width: 55%;
     text-align: left;
-    font-size: 1rem;
-    color: #333;
+    font-size: 1.5rem;
+    color: #fff;
     padding: 1rem 0;
+}
+.desc a:hover{
+    text-shadow: 0 0 .3rem rgba(255,255,255,0.4);
+}
+.home .tech-content{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 14rem 0 8rem 3rem;
+    text-align: center;
 }
 
 
@@ -279,8 +291,34 @@ footer .social a{
         padding:0 0.5rem;
         margin-bottom: 2rem;
     }
+
+    .tech-box-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding:1rem;
+        padding-top: 4rem;
+        margin-top:10rem;
+        background-color: var(--violet)
+    }
+    .image{
+        width: 60%
+    }
+    .image img{
+        width:50rem;
+    }
+    .headline{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 800;
+        color: #333;
+        padding: 1rem 0;
+    }
+    .desc a{
+        width: 100%;
+        text-align: left;
+        color: #333;
+        padding: 1rem 0;
+    }
 }
-
-
-
-/* tech.html */
